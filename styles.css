@@ -4,16 +4,23 @@
 }
 
 body {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', serif;
+    justify-content: center;
+}
+
+.hero-header {
+    padding-bottom: 100px;
+    background-color: #1F2937;
 }
 
 .header {
     display: flex;
-    justify-content: space-around;
-    background-color: #1F2937;
+    justify-content: space-between;
     align-items: center;
+    padding: 10px 250px 50px 250px;
 }
 
 ul {
@@ -36,5 +43,128 @@ ul a {
 .hero {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding: 0 250px 50px 250px;
+}
+
+.awesome {
+    width: 450px;
+}
+
+.awesome h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.awesome p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.awesome button {
+    margin-top: 10px;
+}
+
+
+button {
+    border-radius: 5px;
+    padding: 5px 25px;
+    border-style: none;
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.call-wrapper button {
+    border: 1px solid #fff;
+}
+
+.placeholder {
+    background-color: gray;
+    padding: 100px 70px;
+}
+
+.pic-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid blue;
+    border-radius: 25px;
+    margin-bottom: 5px;
+}
+
+.pic {
+    max-width: 150px;
+    margin: 0 20px 60px 0;
+    text-align: center;
+}
+
+.random h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    padding:30px 0;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 120px 370px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.reference {
+    text-align: right;
+    padding-right: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.call-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+.call {
+    display: flex;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 30px 30px;
+    color: #fff;
+    width: 900px;
     justify-content: space-around;
+    border-radius: 10px;
+}
+
+footer {
+    display: flex;
+    background-color: #1F2937;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #E5E7EB;
+    flex-shrink: 0;
+}
+
+footer {
+    height: 10vh;
+}
+
+.hero, .random, .quote, .call-wrapper {
+    flex: 1;
 }
