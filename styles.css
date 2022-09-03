@@ -83,6 +83,7 @@ button {
 .placeholder {
     background-color: gray;
     padding: 100px 70px;
+    color: #fff;
 }
 
 .pic-wrapper {
